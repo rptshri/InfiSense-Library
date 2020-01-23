@@ -3,7 +3,10 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\**",
                 "${workspaceFolder}/**",
+                "E:\\GithubE\\InfiSense-Library\\src\\**",
                 "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\*",
                 "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\**",
                 "C:\\Program Files (x86)\\Arduino\\tools\\**",
@@ -30,7 +33,8 @@
             "compilerPath": "C:\\TDM-GCC-64\\bin\\gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "msvc-x64"
+            "intelliSenseMode": "msvc-x64",
+            "forcedInclude": []
         }
     ],
     "version": 4
