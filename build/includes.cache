@@ -1,0 +1,72 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\cores\\esp8266"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\variants\\nodemcu"
+  },
+  {
+    "Sourcefile": "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\build\\sketch\\InfiSense-Example-Code.ino.cpp",
+    "Include": "InfiSense.h",
+    "Includepath": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\build\\sketch\\InfiSense-Example-Code.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\Adafruit_ADS1015.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\libraries\\Wire"
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\Adafruit_ADS1015.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\Adafruit_BME280.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\libraries\\SPI"
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\Adafruit_BME280.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\BH1750.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\DallasTemperature.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\InfiSense.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\src\\OneWire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\libraries\\Wire\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\ARPIT\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.5.2\\libraries\\SPI\\SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
