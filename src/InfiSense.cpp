@@ -66,7 +66,6 @@ void InfiSense::begin(boolean DEBUG)
 
 int InfiSense::readSoilSensor()
 {
-
     ads.begin();
     const int numReadings = 10;
     int readings[numReadings]; // the readings from the analog input
