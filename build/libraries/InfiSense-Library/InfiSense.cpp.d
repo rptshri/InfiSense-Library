@@ -76,4 +76,6 @@ c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\libraries\Inf
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266/Print.h \
  C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src\Adafruit_BME280.h \
  C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src/Adafruit_Sensor.h \
- C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src\BH1750.h
+ C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src\BH1750.h \
+ C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src\EasyButton.h \
+ C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src\LiquidCrystal_I2C.h

@@ -1,5 +1,6 @@
-c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\sketch\InfiSense-Example-Code.ino.cpp.o: \
- c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\sketch\InfiSense-Example-Code.ino.cpp \
+c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\libraries\ESP8266WiFi\CertStoreBearSSL.cpp.o: \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\libraries\ESP8266WiFi\src\CertStoreBearSSL.cpp \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\libraries\ESP8266WiFi\src\CertStoreBearSSL.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266/Arduino.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/libc/xtensa-lx106-elf/include/stdlib.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/libc/xtensa-lx106-elf/include/machine/ieeefp.h \
@@ -65,5 +66,18 @@ c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\sketch\InfiSe
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266/debug.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\variants\nodemcu/pins_arduino.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\variants\nodemcu/../generic/common.h \
- C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src/InfiSense.h \
- C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src/InfiCloud.h
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\libraries\ESP8266WiFi\src/BearSSLHelpers.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_hash.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_hmac.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_kdf.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_rand.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_block.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_prf.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_aead.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_rsa.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_ec.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_ssl.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_x509.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/include/bearssl/bearssl_pem.h \
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266/Updater.h

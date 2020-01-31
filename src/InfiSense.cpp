@@ -20,7 +20,7 @@
 #include "InfiSense.h"
 #include <Wire.h>
 #include <stdio.h>
-#include <math.h>   
+#include <math.h>
 #include <string.h>
 
 #include "Adafruit_ADS1015.h"
@@ -35,7 +35,36 @@ Adafruit_ADS1115 ads(0x48); // Addr connected to
 
 #include "BH1750.h"
 
+#include "EasyButton.h"
+EasyButton button(BUTTON_PIN);
 
+#include "LiquidCrystal_I2C.h"
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+LcdDisplay::LcdDisplay()
+{
+    
+}
+
+void LcdDisplay::begin()
+{
+    lcd.init(); // initialize the lcd
+    lcd.backlight();
+    lcd.setCursor(3, 0);
+    lcd.print("!!Hello!!");
+    lcd.setCursor(1, 1);
+    lcd.print("LCD attached..");
+}
+
+void LcdDisplay::setScreens(int getScreens)
+{
+    _totalScreens = getScreens;
+    Inst S[_totalScreens][10];
+}
+
+void LcdDisplay::printLCD(int screennum, int rownumber, int startloc, char *data)
+{
+}
 
 InfiSense::InfiSense()
 {
@@ -66,6 +95,7 @@ void InfiSense::begin(boolean DEBUG)
 
 int InfiSense::readSoilSensor()
 {
+
     ads.begin();
     const int numReadings = 10;
     int readings[numReadings]; // the readings from the analog input
@@ -361,3 +391,19 @@ void InfiSense::triggerLedOff()
         Serial.println("LED is turned OFF!!");
 }
 
+void InfiSense::attachButton()
+{
+    button.begin();
+}
+
+bool InfiSense::readButton()
+{
+    if (button.read())
+    {
+        if (_debug)
+            Serial.println("...Button Pressed!!...");
+        return true;
+    }
+    else
+        return false;
+}

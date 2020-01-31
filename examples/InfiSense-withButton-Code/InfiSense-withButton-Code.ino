@@ -1,5 +1,3 @@
-#include <Arduino.h>
-#line 1 "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\examples\\InfiSense-Example-Code\\InfiSense-Example-Code.ino"
 /* 
   SFE_BMP180 altitude example sketch
 
@@ -58,26 +56,24 @@
 
 InfiSense agri;
 InfiCloud client(TOKEN);
-LcdDisplay lcd;
 
 boolean DEBUG_InfiSense = false;
 
-#line 63 "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\examples\\InfiSense-Example-Code\\InfiSense-Example-Code.ino"
-void setup();
-#line 72 "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\examples\\InfiSense-Example-Code\\InfiSense-Example-Code.ino"
-void loop();
-#line 63 "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\examples\\InfiSense-Example-Code\\InfiSense-Example-Code.ino"
 void setup()
 {
   Serial.begin(9600);
   agri.begin(DEBUG_InfiSense);
-  lcd.begin();
+  agri.attachButton();
   client.setDebug(true);
   client.attachLEDToStatus(true);
 }
 
 void loop()
 {
+  if (agri.readButton())
+  {
+    Serial.println("asdjhgfbsvfg");
+  }
   // agri.readSoilSensor();
   float temperature = agri.readDS18B20();
   float UVIndex = agri.readUVSensor();
@@ -111,4 +107,3 @@ void loop()
   // client.sendToCloud(HOST_ADDRESS);
   // delay(10000);
 }
-

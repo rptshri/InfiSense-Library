@@ -90,28 +90,39 @@
 */
 # 47 "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\examples\\InfiSense-Example-Code\\InfiSense-Example-Code.ino"
 # 48 "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\examples\\InfiSense-Example-Code\\InfiSense-Example-Code.ino" 2
+# 49 "c:\\Users\\ARPIT\\Documents\\Arduino\\libraries\\InfiSense-Library\\examples\\InfiSense-Example-Code\\InfiSense-Example-Code.ino" 2
+
+
+
+
+
+//http://ptsv2.com/t/306ro-1551957130/post        FOR data post on test site
+//http://ptsv2.com/t/306ro-1551957130             for checking dumps through browser
 
 InfiSense agri;
+InfiCloud client("1sfdg12fg4sfda2fsgag5ehg5g1sfaA" /* Put here your Ubidots TOKEN*/);
+LcdDisplay lcd;
 
-boolean DEBUG = true;
+boolean DEBUG_InfiSense = false;
 
 void setup()
 {
   Serial.begin(9600);
-
-  agri.begin(DEBUG);
+  agri.begin(DEBUG_InfiSense);
+  lcd.begin();
+  client.setDebug(true);
+  client.attachLEDToStatus(true);
 }
 
 void loop()
 {
-
   // agri.readSoilSensor();
-  // agri.readDS18B20();
-  // agri.readUVSensor();
+  float temperature = agri.readDS18B20();
+  float UVIndex = agri.readUVSensor();
   // agri.readML8511();
   // agri.readRainSensor();
   // agri.readBMEAltitude();
-  // agri.readBMEAirHumidity();
+  float AirHumidity = agri.readBMEAirHumidity();
   // agri.readBMEAirPressure();
   // agri.readBMEAirTemp();
   // agri.readLUXSensor();
@@ -127,8 +138,14 @@ void loop()
   // delay(1000);
 
   // agri.turnLEDOn();
-  // agri.turnLEDOff()
-
-
-  delay(10);
+  // delay(1000);
+  // agri.turnLEDOff();
+  // delay(1000);
+  // client.connectToWiFi(WIFI_SSID, WIFI_PASSWORD);
+  // client.add("temp", temperature);
+  // client.add("UVIndex", UVIndex);
+  // client.add("Air_Humidity", AirHumidity);
+  // client.makePayload();
+  // client.sendToCloud(HOST_ADDRESS);
+  // delay(10000);
 }

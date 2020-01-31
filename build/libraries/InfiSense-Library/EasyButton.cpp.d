@@ -1,5 +1,6 @@
-c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\sketch\InfiSense-Example-Code.ino.cpp.o: \
- c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\sketch\InfiSense-Example-Code.ino.cpp \
+c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\libraries\InfiSense-Library\EasyButton.cpp.o: \
+ C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src\EasyButton.cpp \
+ C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src\EasyButton.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266/Arduino.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/libc/xtensa-lx106-elf/include/stdlib.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2/tools/sdk/libc/xtensa-lx106-elf/include/machine/ieeefp.h \
@@ -64,6 +65,4 @@ c:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\build\sketch\InfiSe
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266/md5.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\cores\esp8266/debug.h \
  C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\variants\nodemcu/pins_arduino.h \
- C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\variants\nodemcu/../generic/common.h \
- C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src/InfiSense.h \
- C:\Users\ARPIT\Documents\Arduino\libraries\InfiSense-Library\src/InfiCloud.h
+ C:\Users\ARPIT\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.5.2\variants\nodemcu/../generic/common.h

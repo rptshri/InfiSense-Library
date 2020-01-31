@@ -65,15 +65,38 @@ public:
 	void triggerLedOff();
 	void turnLedOff();
 
-	// void 
+	void attachButton();
+	bool readButton();
 
 private:
 	float mapfloat(float x, float in_min, float in_max, float out_min, float out_max);
 
 	boolean _debug;
 	int _TempPin;
+};
 
-	String Payload = "";
+typedef struct Inst
+{
+    int row;
+    int startloc;
+	char *data;
+} Inst;
+
+class LcdDisplay
+{
+public:
+	LcdDisplay();
+
+	void begin();
+
+	void setScreens(int getScreens);
+
+	void printLCD(int screennum, int rownum, int startloc1, char *data1);
+
+private:
+	
+	Inst S[][10];
+	int _totalScreens = 0;
 };
 
 #define ONE_WIRE_BUS D5
@@ -81,5 +104,6 @@ private:
 #define SEALEVELPRESSURE_HPA (1013.25)
 #define RELAY_PIN 13
 #define LED_PIN 12
+#define BUTTON_PIN 2
 
 #endif
